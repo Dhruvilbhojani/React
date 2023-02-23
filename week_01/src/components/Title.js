@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Title(props) {
+function Title({ name, children }) {
     return (
         <div>
-            <h1>TatvaSoft Industrial Project {props.name}</h1>
-            {props.children}
+            <h1>TatvaSoft Industrial Project {name}</h1>
+            {children}
         </div>
     )
 }
